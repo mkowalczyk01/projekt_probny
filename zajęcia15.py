@@ -10,7 +10,7 @@ wynik, kwadrat = dziwne_dzialanie(pierwsza, druga)
 print("Wynikiem skomlikowanego dzialania jest:" ,wynik)
 print("Kwadratem podanych liczb jest:" ,kwadrat)'''
 
-#gwiazdki
+#gwiazdki123ZMIANA
 
 '''def gwiazdki(liczba_gwiazdek):
     if liczba_gwiazdek > 0:
