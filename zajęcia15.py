@@ -10,21 +10,7 @@ wynik, kwadrat = dziwne_dzialanie(pierwsza, druga)
 print("Wynikiem skomlikowanego dzialania jest:" ,wynik)
 print("Kwadratem podanych liczb jest:" ,kwadrat)'''
 
-#przykład z Internetu
-
-'''lista = [1,3,7,11,13,17,32]
-cel = 17
-
-def szukaj(lista, cel, pozycja):
-    if lista[pozycja] == cel:
-        print("Znalazłem na pozycji", pozycja+1)
-        return
-    elif pozycja == len(lista)-1:
-        print("Nie znalazłem celu")
-        return
-    szukaj(lista, cel, pozycja+1)
-
-szukaj(lista, cel, 0)'''
+#gwiazdki
 
 '''def gwiazdki(liczba_gwiazdek):
     if liczba_gwiazdek > 0:
@@ -82,7 +68,7 @@ print(bez_ostatniego([1,2,3,4,5,6,7,8]))'''
 
 #ogon
 
-def ogon(lista):
+'''def ogon(lista):
     nowa_lista = []
     print(lista)
     if len(lista)>1:
@@ -91,7 +77,7 @@ def ogon(lista):
     else:
         return nowa_lista
 
-print(ogon([1,2,3,4,5,6,7,8,9]))
+print(ogon([1,2,3,4,5,6,7,8,9]))'''
 
 #minimum
 
@@ -155,7 +141,7 @@ print(enta(3))'''
 
 #czy są równe
 
-def czy_sa(liczba1, liczba2):
+'''def czy_sa(liczba1, liczba2):
     if liczba1 == liczba2:
         return "Liczby są identyczne"
     else:
@@ -165,4 +151,4 @@ def czy_sa(liczba1, liczba2):
 pierwsza_liczba = int(input("Podaj pierwszą liczbę "))
 druga_liczba = int(input("Podaj drugą liczbę "))
 wynik = czy_sa(pierwsza_liczba, druga_liczba)
-print(wynik)
+print(wynik)'''
